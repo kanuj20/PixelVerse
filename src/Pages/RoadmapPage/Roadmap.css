@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "Future Earth";
+    src: url(../../Font/future_earth/Future\ Earth\ v2.ttf);
+}
+
+.roadmap-img-div {
+    width: 100%;
+    margin-bottom: -20px;
+}
+.roadmap-img-div img {
+    width: 100%;
+}
+
+.mobile-roadmap {
+    display: none;
+}
+
+.roadmap {
+    text-align: center;
+}
+
+.roadmap h1 {
+    font-family: "Future Earth";
+    font-size: 24px;
+    color: rgb(155, 155, 211);
+}
+
+.roadmap {
+    background-color: black;
+    text-align: center;
+}
+
+@media (max-width: 700px) {
+    .mobile-roadmap {
+        display: block;
+    }
+    .desktop-roadmap {
+        display: none;
+    }
+}

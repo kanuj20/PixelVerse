@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "Future Earth";
+    src: url(../../Font/future_earth/Future\ Earth\ v2.ttf);
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.planetPageWrapper {
+    width: 100%;
+}
+
+.planetPagediv {
+    width: 1200px;
+    max-width: 95%;
+    margin: auto;
+}
+
+video {
+    max-width: 100%;
+}
+
+.planet-div {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.planet-img-div {
+    margin: 30px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.collection {
+    text-align: center;
+}
+
+.collection h1{
+    font-family: "Future Earth";
+    font-size: 24px;
+    color: rgb(155, 155, 211);
+}
+
+@media (max-width: 780px) {
+    .planet-div {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 525px) {
+    .planet-div {
+        grid-template-columns: 1fr;
+    }
+}
